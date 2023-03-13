@@ -23,3 +23,5 @@ def define(word):
 if __name__ == '__main__':
     word = sys.argv[1]
     print(define(given word))
+
+
