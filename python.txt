@@ -11,6 +11,7 @@ def define(word):
 
     definition = soup.find('span', class_='dtText')
 
+
     if definition is not None:
         # Definition text will be extracted
         definition_text = definition.text.strip()
